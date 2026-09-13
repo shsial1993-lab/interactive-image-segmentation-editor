@@ -1,6 +1,9 @@
 # Interactive Image Segmentation Editor
 
-A teaching project for fifth-semester BSAI students combining SAM 2.1 point-prompt segmentation, human correction through include/exclude clicks, and computer graphics compositing.
+## About
+
+Interactive Image Segmentation Editor is a teaching-focused computer vision application built with SAM 2.1, Python, Gradio, OpenCV, and NumPy. It allows users to segment objects using Include/Exclude single-point or circular prompts, refine masks interactively, remove unwanted components, replace backgrounds, and export transparent or composited PNG images. The project also evaluates segmentation quality against an independent ground-truth mask using mIoU, Dice, precision, recall, and error maps, demonstrating the integration of AI, HCI, and computer graphics.
+
 
 ## Setup: Windows PowerShell, Python 3.11, and CPU
 
